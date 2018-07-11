@@ -1,21 +1,32 @@
-def addition(num1, num2)
+def addition(number_one, x)
+  number_one + x
 end
 
-def subtraction(num1, num2)
+def subtraction (number_one, x)
+  number_one-x
 end
 
-def division(num1, num2)
+def division (number_one, x)
+  number_one/x
 end
 
-def multiplication(num1, num2)
+def multiplication (number_one,x)
+  number_one * x
 end
 
-def modulo(num1, num2)
+def modulo (number_one, x)
+  number_one% x
 end
 
-def square_root(num)
+def square_root (number_one)
+  Math.sqrt(number_one)
 end
 
 def order_of_operation(num1, num2, num3, num4)
   #Hint:  __ + (( __ * __ ) / __ )
+  num1+((num2*num3)/num4)
 end
+
+  
+  
+  
